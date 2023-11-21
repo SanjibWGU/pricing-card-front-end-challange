@@ -1,0 +1,95 @@
+*,*::before,*::after{box-sizing: inherit;}
+html{
+  box-sizing:border-box;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+}
+body{
+  padding: 20px;
+}
+h2, h4, p{
+  margin: 0px;
+}
+#card {
+  width: 600px;
+  height:400px;
+  box-shadow: 1px 3px 7px 3px rgba(0,0,0,0.48);
+/*   border: 2px solid black; */
+  border-radius: 5px;
+/*   overflow for bottom two div flowing out */
+  overflow: hidden;
+}
+#top-section{
+  width:100%;
+  height: 40%;
+  padding: 20px;
+}
+#buttom-section{
+  width:100%;
+  height: 60%;
+}
+#buttom-left{
+  display: inline-block;
+  width:50%;
+  height: 100%;
+  padding: 20px;
+  color: white;
+/*   box floating outside so verticle align */
+  vertical-align: top;
+  background-color: #2bb3b1;
+}
+#buttom-right{
+  display: inline-block;
+  width:50%;
+  height: 100%;
+  padding: 20px;
+  vertical-algin: top;
+  background-color: #4abebd;
+   color: white;
+}
+#top-section h2{
+  color:#6dcfd0;
+  padding-bottom: 20px;
+}
+#top-section h4{
+  color: #c6dd51;
+  padding-bottom: 15px;
+}
+#top-section p {
+  color: #c3cad0;
+}
+
+#buttom-left h4{padding-bottom: 20px;}
+#price29{
+  font-weight:700;
+  font-size: 1.4rem;
+  display: inline-block;
+}
+#priceMonth {
+  display: inline-block;
+  opacity: 0.70;
+  margin-left: 5px;
+  position: relative;
+  top:-3px;
+}
+#price-container {padding-bottom: 15px;}
+button{
+  color: white;
+  background-color: #bfdf32;
+  padding: 10px;
+  margin-top: 15px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: #BDBC56;
+  transform: scale(1.03);
+}
+ul{
+  padding:0;
+  list-style: none;
+  font-size: 0.8rem;
+  opacity:0.8;
+}
